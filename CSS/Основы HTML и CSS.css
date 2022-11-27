@@ -1,0 +1,203 @@
+.container>input[type="radio"] {
+    display: none;
+}
+
+.container>div {
+    /* скрыть контент по умолчанию */
+    display: none;
+    font-size: 16px;
+    border: 1px solid #C6CBCD;
+}
+
+#container__tab1:checked~#container__content1,
+#container__tab2:checked~#container__content2,
+#container__tab3:checked~#container__content3 {
+    /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+    display: block;
+}
+
+.container>label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 70px;
+    font-size: 14px;
+    font-family: Open Sans;
+    position: relative;
+    top: 1px;
+}
+
+.container>input[type="radio"]:checked+label {
+    background-color: #fff;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-top: 1px solid #C6CBCD;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.container {
+    font-size: 0;
+    margin: 0 auto;
+    max-width: 1170px;
+    height: 540px;
+}
+
+.container__content-block {
+    max-width: 1170px;
+    height: 498px;
+    padding-left: 100px;
+}
+
+.container__content-text {
+    max-width: 570px;
+    height: 500px;
+    display: inline-block;
+}
+
+div h3 {
+    font-family: Open Sans;
+    font-size: 30px;
+    color: #000000;
+    line-height: 124px;
+    margin: 0;
+}
+
+div p {
+    font-family: Raleway;
+    font-size: 18px;
+    color: #000000;
+}
+
+div img {
+    width: 470px;
+    display: inline-block;
+    float: right;
+}
+
+.container__btn {
+    width: 270px;
+    height: 58px;
+    font-family: Open Sans;
+    font-size: 18px;
+    background: #EC7979;
+    border: 0;
+    padding: 0;
+    position: relative;
+    bottom: -100px;
+    text-decoration: none;
+}
+
+.container__btn:hover {
+    background: #AB4949;
+    ;
+}
+
+.container__btn:active {
+    background: #EC7979;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    width: 1170px;
+    height: 665px;
+    margin: 0 auto;
+    background: white;
+}
+
+.title {
+    width: 1170px;
+    height: 150px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+    padding-top: 57px;
+}
+
+.line {
+    border: 1px solid #EC7979;
+    height: 0px;
+    width: 170px;
+    left: 671px;
+    top: 2003px;
+    border-radius: nullpx;
+}
+
+.slogan {
+    color: #86878B;
+    text-align: center;
+    font-size: 18px;
+}
+
+.section {
+    width: 350px;
+    height: 325px;
+    display: inline-block;
+}
+
+.section-one {
+    float: left;
+    padding: 10px;
+    margin: 56px 0 0 0;
+    align-items: center;
+}
+
+.section-two {
+    margin: 56px 25px 0 25px;
+    padding: 10px;
+}
+
+.section-three {
+    float: right;
+    margin: 56px 0 0 0;
+    padding: 10px;
+}
+
+.image-one {
+    width: 65px;
+    height: 65px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    padding: 13px;
+    margin: 0 130px 40px 130px;
+}
+
+.image-two {
+    width: 66px;
+    height: 46px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    padding: 23px 13px;
+    margin: 0 130px 40px 130px;
+}
+
+.image-three {
+    width: 46px;
+    height: 66px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    padding: 13px 26px;
+    margin: 0 130px 40px 130px;
+}
+
+.subtitle {
+    font-family: Open Sans;
+    font-style: normal;
+    text-align: center;
+    font-size: 24px;
+}
+
+.text {
+    font-style: normal;
+    text-align: center;
+    line-height: 21px;
+    font-size: 18px;
+}
