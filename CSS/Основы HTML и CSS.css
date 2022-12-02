@@ -208,7 +208,6 @@ h2 {
 
 .wrap-pricing {
     width: 1170px;
-    box-sizing: border-box;
     margin: auto;
     padding: 50px;
     box-sizing: content-box;
@@ -261,4 +260,88 @@ h2 {
 .body__items:hover {
     box-shadow: 0 5px 10px 0 #86878B;
     border-radius: 5px;
+    transform: translateY(-50px);
+}
+
+.ourcustomers {
+    box-sizing: content-box;
+}
+
+.ourcustomers__box {
+    width: 1170px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.ourcustomers__box-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.body__item {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin-top: 52px;
+}
+
+.desc {
+    font-family: Raleway;
+    font-size: 18;
+    color: #86878B;
+    text-align: center;
+    padding: 37px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    position: relative;
+    left: 70px;
+}
+
+.name {
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+    height: 70px;
+    margin-top: 46px;
+}
+
+.davis::before {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 30px;
+    content: url(../Image/Ellipse\ 7.png);
+}
+
+.jaydon::before {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 30px;
+    content: url(../Image/Ellipse\ 7\ \(1\).png);
+}
+
+.cooper::before {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 30px;
+    content: url(../Image/Ellipse\ 7\ \(2\).png);
+}
+
+.function {
+    font-family: Raleway;
+    font-size: 18px;
+    color: #000000;
+    width: 270px;
+    align-self: flex-end;
+    margin: 0;
 }
