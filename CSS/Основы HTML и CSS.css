@@ -1,3 +1,17 @@
+.axit {}
+
+.axit__body {
+    background-image: url(../Image/AXIT.png);
+    height: 1026px;
+    margin: 0 auto;
+}
+
+.axit__footer {
+    height: 140px;
+    background-color: #F8EFEF;
+    margin-bottom: 100px;
+}
+
 .container>input[type="radio"] {
     display: none;
 }
@@ -344,4 +358,53 @@ h2 {
     width: 270px;
     align-self: flex-end;
     margin: 0;
+}
+
+.stylish {
+    background-image: url(../Image/STYLISH.png);
+    height: 442px;
+    margin-top: 64px;
+}
+
+.stylish__body {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+
+.stylish__title {
+    font-family: Raleway;
+    color: #FFFFFF;
+    height: 150px;
+    text-align: center;
+}
+
+.stylish__line {
+    border: 1px solid #FFFFFF;
+    height: 0px;
+    width: 170px;
+    left: 671px;
+    top: 2003px;
+    border-radius: nullpx;
+}
+
+.stylish__slogan {
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.stylish__btn {
+    width: 370px;
+    height: 58px;
+    font-family: Open Sans;
+    font-size: 18px;
+    background: none;
+    border: 3px solid #FFFFFF;
+    text-decoration: none;
+    margin-top: 73px;
+    margin-left: 400px;
 }
