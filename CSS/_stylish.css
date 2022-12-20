@@ -1,0 +1,159 @@
+.stylish {
+    background: linear-gradient(#00000078, #00000078), url(../Image/STYLISH.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 15px 50px 15px;
+}
+
+@media (max-width: 767px) {
+    .stylish {
+        padding: 0 0 50px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .stylish {
+        padding: 50px 16px 50px 16px;
+    }
+}
+
+.stylish__body {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .stylish__body {
+        max-width: 288px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .stylish__body {
+        max-width: 992px;
+        width: 100%;
+    }
+}
+
+.stylish__title {
+    width: 100%;
+}
+
+.stylish__title>h2 {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 150px;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .stylish__title>h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 120px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .stylish__title>h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 120px;
+    }
+}
+
+.stylish__title>h2::after {
+    content: " ";
+    display: block;
+    border: 1px solid #FFFFFF;
+    height: 0px;
+    width: 170px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .stylish__title>h2::after {
+        width: 134px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .stylish__title>h2::after {
+        width: 142px;
+    }
+}
+
+.stylish__slogan {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 0 71px 0;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .stylish__slogan {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 16px 0 66px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .stylish__slogan {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 30px 0 32px 0;
+    }
+}
+
+.stylish__body>form {
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .stylish__body>form {
+        max-width: 318px;
+    }
+}
+
+@media (max-width: 767px) {
+    .stylish__body>form {
+        width: 100%;
+    }
+}
+
+.stylish__btn>button {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    background: none;
+    border: 2px solid #FFFFFF;
+    padding: 15px 0 15px 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.stylish__btn>button:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+
+.stylish__btn>button:active {
+    border: 2px solid #AB4949;
+    background-color: #AB4949;
+    color: #FFFFFF;
+}

@@ -1,0 +1,153 @@
+.contactUs {
+    padding: 50px 15px 50px 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contactUs {
+        padding: 50px 16px 50px 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contactUs {
+        padding: 0 16px 40px 16px;
+    }
+}
+
+.contactUs__box {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .contactUs__box {
+        max-width: 288px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contactUs__box {
+        max-width: 992px;
+        width: 100%;
+    }
+}
+
+.contactUs__box-form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+@media (max-width: 767px) {
+    .contactUs__box-form {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contactUs__box-form {
+        margin-top: 72px;
+    }
+}
+
+.contactUs__box-form .form {
+    width: 49%;
+}
+
+@media (max-width: 767px) {
+    .contactUs__box-form .form {
+        width: 100%;
+    }
+}
+
+.contactUs__form-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactUs__form-one input {
+    height: 38px;
+}
+
+.contactUs__form-two textarea {
+    height: 214px;
+    resize: none;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .contactUs__form-two textarea {
+        height: 200px;
+    }
+}
+
+.form>input,
+textarea {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+    line-height: 19px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.form>input,
+textarea:focus {
+    outline: 0;
+}
+
+.contactUs__box-btn {
+    max-width: 370px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .contactUs__box-btn {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contactUs__box-btn {
+        max-width: 318px;
+        width: 100%;
+    }
+}
+
+.contactUs__box-btn>button {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    background: #EC7979;
+    border: none;
+    padding: 17px;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .contactUs__box-btn>button {
+        padding: 13px;
+    }
+}
+
+.contactUs__box-btn>button:hover {
+    background: #AB4949;
+}
+
+.contactUs__box-btn>button:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px 0px #AB4949;
+}

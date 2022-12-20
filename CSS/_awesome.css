@@ -1,0 +1,270 @@
+.awesome {
+    padding: 50px 15px 58px 15px;
+}
+
+@media (max-width: 767px) {
+    .awesome {
+        padding: 0 16px 60px 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .awesome {
+        padding: 50px 16px 60px 16px;
+    }
+}
+
+.awesome__wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .awesome__wrapper {
+        max-width: 288px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .awesome__wrapper {
+        max-width: 992px;
+        width: 100%;
+    }
+}
+
+.title {
+    width: 100%;
+}
+
+.title>h2 {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    padding: 54px 0 54px 0;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .title>h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        padding: 46px 0 46px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .title>h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        padding: 46px 0 46px 0;
+    }
+}
+
+.title::after {
+    content: " ";
+    display: block;
+    border: 1px solid #EC7979;
+    height: 0px;
+    width: 170px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .title::after {
+        width: 134px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .title::after {
+        width: 142px;
+    }
+}
+
+.slogan {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .slogan {
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slogan {
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 30px;
+    }
+}
+
+.awesome__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 110px 0 0 0;
+}
+
+@media (max-width: 767px) {
+    .awesome__body {
+        flex-direction: column;
+        padding: 40px 0 0 0;
+    }
+}
+
+.section {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+        padding-top: 43px;
+    }
+}
+
+.image-one {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    padding: 13px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .image-one {
+        width: 56px;
+        height: 56px;
+        padding: 11px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image-one {
+        width: 56px;
+        height: 56px;
+        padding: 11px;
+    }
+}
+
+.image-two {
+    width: 64px;
+    height: 44px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    padding: 23px 13px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .image-two {
+        width: 57px;
+        height: 40px;
+        padding: 20px 11px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image-two {
+        width: 57px;
+        height: 40px;
+        padding: 20px 11px;
+    }
+}
+
+.image-three {
+    width: 46px;
+    height: 66px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    padding: 12px 22px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .image-three {
+        width: 38px;
+        height: 57px;
+        padding: 11px 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image-three {
+        width: 38px;
+        height: 57px;
+        padding: 11px 22px;
+    }
+}
+
+.section>.subtitle {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #000000;
+    text-align: center;
+    padding: 34px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .section>.subtitle {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 29px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section>.subtitle {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 29px;
+    }
+}
+
+.section>.text {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+    padding-top: 9px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .section>.text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section>.text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

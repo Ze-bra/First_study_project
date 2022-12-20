@@ -1,0 +1,340 @@
+.axit {
+    padding: 0 15px 0 15px;
+    background: linear-gradient(#00000078, #00000078), url(../Image/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1026px;
+    background-position-x: center;
+}
+
+@media (max-width: 767px) {
+    .axit {
+        padding: 0 16px 0 16px;
+        height: max-content;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit {
+        padding: 0 16px 0 16px;
+    }
+}
+
+.axit__wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+@media (max-width: 767px) {
+    .axit__wrapper {
+        max-width: 288px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit__wrapper {
+        max-width: 992px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.axit__dody {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 208px;
+
+}
+
+@media (max-width: 767px) {
+    .axit__dody {
+        max-width: 288px;
+        width: 100%;
+        flex-direction: column;
+        padding: 140px 0 50px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit__dody {
+        max-width: 992px;
+        width: 90%;
+
+        margin: 0;
+    }
+}
+
+
+.axit__dody-text {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+}
+
+@media (max-width: 767px) {
+    .axit__dody-text {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.axit-logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+}
+
+@media (max-width: 767px) {
+    .axit-logo {
+        display: none;
+    }
+}
+
+
+.axit-logo img {
+    height: 55px;
+    width: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit-logo img {
+        height: 41px;
+    }
+}
+
+.axit__dody-text>h1 {
+    font-family: Raleway;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 73px 0 0 0;
+
+}
+
+@media (max-width: 767px) {
+    .axit__dody-text>h1 {
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit__dody-text>h1 {
+        font-size: 36px;
+        line-height: 42px;
+        margin: 54px 0 0 0;
+    }
+}
+
+.axit__dody-text h1::after {
+    content: " ";
+    display: block;
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    height: 0;
+    margin-top: 55px;
+}
+
+@media (max-width: 767px) {
+    .axit__dody-text h1::after {
+        width: 134px;
+        margin-top: 44px;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit__dody-text h1::after {
+        width: 115px;
+        margin-top: 42px;
+    }
+}
+
+.axit__dody-text>p {
+    max-width: 270px;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 42px 0 42px 0;
+}
+
+@media (max-width: 767px) {
+    .axit__dody-text>p {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit__dody-text>p {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 31px 0 31px 0;
+    }
+}
+
+.axit__btn>button {
+    max-width: 270px;
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .axit__btn>button {
+        max-width: 288px;
+        width: 100%;
+        padding: 11px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit__btn>button {
+        max-width: 183px;
+        width: 100%;
+        padding: 11px;
+    }
+}
+
+.axit__btn>button[type="button"]:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+
+.axit__btn>button[type="button"]:active {
+    background-color: #AB4949;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.axit__dody-form {
+    width: 40%;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .axit__dody-form {
+        width: 100%;
+        height: 381px;
+        margin-top: 56px;
+    }
+}
+
+.axit__dody-form>h3 {
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #333333;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 29px 0;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .axit__dody-form>h3 {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 35px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .axit__dody-form>h3 {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 33px 0;
+    }
+}
+
+h3>.color {
+    color: #EC7979;
+}
+
+.axit__dody-form>div .axit__form,
+button {
+    width: 100%;
+}
+
+.content-form>.axit__form {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+    line-height: 19px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    margin-bottom: 33px;
+}
+
+.content-form input {
+    padding-bottom: 16px;
+}
+
+.content-form>input:focus {
+    outline: 0;
+}
+
+.content-form {
+    padding: 45px 50px 0 50px;
+}
+
+@media (max-width: 767px) {
+    .content-form {
+        padding: 0 28px 0 20px;
+    }
+}
+
+.axit__dody-form>button {
+    height: 60px;
+    background-color: #EC7979;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 20px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.axit__dody-form>button:hover {
+    background-color: #AB4949;
+}
+
+.axit__dody-form>button:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px 0px #AB4949;
+}

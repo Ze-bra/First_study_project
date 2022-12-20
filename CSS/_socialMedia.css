@@ -1,0 +1,131 @@
+.socialMedia {
+    background-color: #F8EFEF;
+    vertical-align: middle;
+    padding: 0 15px 0 15px;
+
+}
+
+@media (max-width: 767px) {
+    .socialMedia {
+        padding: 0 16px 0 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .socialMedia {
+        padding: 0 16px 0 16px;
+    }
+}
+
+
+.socialMedia__content {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .socialMedia__content {
+        flex-direction: column;
+        padding-top: 31px;
+    }
+}
+
+.socialMedia-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width: 767px) {
+    .socialMedia__content {
+        text-align: center;
+    }
+}
+
+.socialMedia-text>h3 {
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #333333;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 14px 0 14px 0;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .socialMedia-text>h3 {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 10px 0 10px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .socialMedia-text>h3 {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 10px 0 10px 0;
+    }
+}
+
+
+.socialMedia-text>p {
+    font-family: Raleway;
+    font-size: 18px;
+    color: #86878B;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 18px 0;
+}
+
+@media (max-width: 767px) {
+    .socialMedia-text>p {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 1px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .socialMedia-text>p {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 13px 0 32px 0;
+    }
+}
+
+.socialMedia-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 57%;
+}
+
+@media (max-width: 767px) {
+    .socialMedia-icon {
+        width: 100%;
+        padding: 32px 0 44px 0;
+    }
+}
+
+.socialMedia__content img {
+    height: 70px;
+}
+
+@media (max-width: 767px) {
+    .socialMedia__content img {
+        height: 26px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .socialMedia__content img {
+        height: 64px;
+    }
+}

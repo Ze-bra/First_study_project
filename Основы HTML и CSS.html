@@ -6,51 +6,59 @@
     <link rel="stylesheet" href="./CSS/Основы HTML и CSS.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <body>
 
-    <div class="axit">
-        <div class="axit__wrapper">
-            <div class="axit__header">
-                <div class="axit__header-content">
-                    <div class="header-logo">
-                        <img src="./Image/IT.png" alt="">
-                        <img src="./Image/AX.png" alt="">
-                    </div>
-                    <div class="header-menu">
-                        <ul class="menu">
-                            <li class="features">
-                                <a target="_blank" href="#container">Features</a>
-                            </li>
-                            <li class="about">
-                                <a target="_blank" href="#main">About</a>
-                            </li>
-                            <li class="pricing">
-                                <a target="_blank" href="#pricing">Pricing</a>
-                            </li>
-                            <li class="reviews">
-                                <a target="_blank" href="#customers">Reviews</a>
-                            </li>
-                            <li class="contact">
-                                <a target="_blank" href="#contactUs">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+    <div class="axit__header">
+        <div class="axit__header-wrapper">
+            <div class="axit__header-content">
+                <div class="header-logo">
+                    <img src="./Image/AX.png" alt="">
+                    <img src="./Image/IT.png" alt="">
+                </div>
+                <div class="header-menu">
+                    <input id="header-menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="header-menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu__toggle">
+                        <li class="features">
+                            <a class="toggle__item" target="_blank" href="#tabs">Features</a>
+                        </li>
+                        <li class="about">
+                            <a class="toggle__item" target="_blank" href="#awesome">About</a>
+                        </li>
+                        <li class="pricing">
+                            <a class="toggle__item" target="_blank" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="reviews">
+                            <a class="toggle__item" target="_blank" href="#customers">Reviews</a>
+                        </li>
+                        <li class="contact">
+                            <a class="toggle__item" target="_blank" href="#contactUs">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
+    </div>
+    </div>
+    <div class="axit">
+        <div class="axit__wrapper">
             <div class="axit__dody">
                 <div class="axit__dody-text">
                     <div class="axit-logo">
-                        <img src="./Image/IT.png" alt="">
                         <img src="./Image/AX.png" alt="">
+                        <img src="./Image/IT.png" alt="">
                     </div>
                     <h1 class="axit-title">
                         MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit
                     </p>
                     <form class="axit__btn" action=" ">
                         <button type="button">Download</button>
@@ -67,126 +75,136 @@
                 </form>
             </div>
         </div>
-        <div class="axit__footer">
-            <div class="axit__footer-content">
-                <div class="axit-text">
-                    <h3>Social Media</h3>
+    </div>
+    <div class="socialMedia">
+        <div class="socialMedia__content">
+            <div class="socialMedia-text">
+                <h3>Social Media</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Aenean euismod bibendum laoreet.
+                </p>
+            </div>
+            <div class="socialMedia-icon">
+                <img src="./Image/facebook_icon.png" alt="">
+                <img src="./Image/twitter_icon.png" alt="">
+                <img src="./Image/linkedin_icon.png" alt="">
+                <img src="./Image/pinterest_icon.png" alt="">
+                <img src="./Image/instagram_icon.png" alt="">
+                <img src="./Image/github_icon.png" alt="">
+                <img src="./Image/rss_icon.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="tabs" id="tabs">
+        <div class="tabs__container">
+            <input type="radio" name="tab" id="container__tab1" value="" checked>
+            <label for="container__tab1">TAB1</label>
+            <input type="radio" name="tab" id="container__tab2" value="">
+            <label for="container__tab2">TAB2</label>
+            <input type="radio" name="tab" id="container__tab3" value="">
+            <label for="container__tab3">TAB3</label>
+            <div id="container__content1" class="container__content-block">
+                <div class="container__content-text">
+                    <h3>The Statue of Liberty.</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenean euismod bibendum laoreet.
+                        The statue is on an island that can be reached by ferry. There is a history museum that tells
+                        visitors about the
+                        creation of the monument.
+                        <br> Exceeding 354 steps, one can ascend to the level of the "Lady Liberty"
+                        crown and see a
+                        stunning panorama of New York Harbor.
+                    </p>
+                    <form class="container__btn" action=" ">
+                        <button type="submit">Download</button>
+                    </form>
+                </div>
+                <div class="img">
+                    <img src="./Image/Rectangle 111.png" alt="">
+                </div>
+            </div>
+            <div id="container__content2" class="container__content-block">
+                <div class="container__content-text">
+                    <h3>Hollywood Walk of Fame.</h3>
+                    <p>
+                        Fans of Hollywood actors flock here from all over the world to touch the treasured stars with
+                        their
+                        own hands.
+                        <br>The Walk of Fame is more than 2,500 stars with the names of Hollywood celebrities, who were
+                        noted for their
+                        significant contribution to American cinema.
+                    </p>
+                    <form class="container__btn" action="">
+                        <button type="submit">Download</button>
+                    </form>
+                </div>
+                <div class="img">
+                    <img src="./Image/walk_fame_stars_usa-info.com.ua.jpg" alt="">
+                </div>
+            </div>
+            <div id="container__content3" class="container__content-block">
+                <div class="container__content-text">
+                    <h3>Mount Rushmore.</h3>
+                    <p>
+                        This mountain was glorified by the sculptor Gutzon Borglum, according to whose idea several
+                        hundred
+                        masons carved in the rock the 18-meter faces of the most famous American presidents: Thomas
+                        Jefferson, George Washington,
+                        Abraham Lincoln and Theodore Roosevelt.
+                    </p>
+                    <form class="container__btn" action="">
+                        <button type="submit">Download</button>
+                    </form>
+                </div>
+                <div class="img">
+                    <img src="./Image/Mount Rushmore.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="awesome" id="awesome">
+        <div class="awesome__wrapper">
+            <div class="awesome__header">
+                <div class="title">
+                    <h2>
+                        WHY THIS IS AWESOME
+                    </h2>
+                </div>
+                <h5 class="slogan">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h5>
+            </div>
+            <div class="awesome__body">
+                <div class="section section-one">
+                    <img class="image-one" src="./Image/Vector1.png" alt="" />
+                    <h4 class="subtitle">
+                        Thoughtful Design
+                    </h4>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </p>
                 </div>
-                <div class="axit-icon">
-                    <img src="./Image/facebook_icon.png" alt="">
-                    <img src="./Image/twitter_icon.png" alt="">
-                    <img src="./Image/linkedin_icon.png" alt="">
-                    <img src="./Image/pinterest_icon.png" alt="">
-                    <img src="./Image/instagram_icon.png" alt="">
-                    <img src="./Image/github_icon.png" alt="">
-                    <img src="./Image/rss_icon.png" alt="">
+                <div class="section section-two">
+                    <img class="image-two" src="./Image/Vector2.png" alt="" />
+                    <h4 class="subtitle">
+                        Thoughtful Design
+                    </h4>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+                    </p>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container" id="container">
-        <input type="radio" name="tab" id="container__tab1" value="" checked>
-        <label for="container__tab1">TAB1</label>
-        <input type="radio" name="tab" id="container__tab2" value="">
-        <label for="container__tab2">TAB2</label>
-        <input type="radio" name="tab" id="container__tab3" value="">
-        <label for="container__tab3">TAB3</label>
-        <div id="container__content1" class="container__content-block">
-            <div class="container__content-text">
-                <h3>The Statue of Liberty.</h3>
-                <p>
-                    The statue is on an island that can be reached by ferry. There is a history museum that tells
-                    visitors about the
-                    creation of the monument.
-                    <br> Exceeding 354 steps, one can ascend to the level of the "Lady Liberty"
-                    crown and see a
-                    stunning panorama of New York Harbor.
-                </p>
-                <form class="container__btn" action=" ">
-                    <button type="submit">Download</button>
-                </form>
-            </div>
-            <img src="./Image/Rectangle 111.png" alt="">
-        </div>
-        <div id="container__content2" class="container__content-block">
-            <div class="container__content-text">
-                <h3>Hollywood Walk of Fame.</h3>
-                <p>
-                    Fans of Hollywood actors flock here from all over the world to touch the treasured stars with
-                    their
-                    own hands.
-                    <br>The Walk of Fame is more than 2,500 stars with the names of Hollywood celebrities, who were
-                    noted for their
-                    significant contribution to American cinema.
-                </p>
-                <form class="container__btn" action="">
-                    <button type="submit">Download</button>
-                </form>
-            </div>
-            <img src="./Image/walk_fame_stars_usa-info.com.ua.jpg" alt="">
-        </div>
-        <div id="container__content3" class="container__content-block">
-            <div class="container__content-text">
-                <h3>Mount Rushmore.</h3>
-                <p>
-                    This mountain was glorified by the sculptor Gutzon Borglum, according to whose idea several
-                    hundred
-                    masons carved in the rock the 18-meter faces of the most famous American presidents: Thomas
-                    Jefferson, George Washington,
-                    Abraham Lincoln and Theodore Roosevelt.
-                </p>
-                <form class="container__btn" action="">
-                    <button type="submit">Download</button>
-                </form>
-            </div>
-            <img src="./Image/Mount Rushmore.jpg" alt="">
-        </div>
-    </div>
-    <div class="main" id="main">
-        <div class="main__header">
-            <div class="title">
-                <h2>
-                    WHY THIS IS AWESOME
-                </h2>
-            </div>
-            <h5 class="slogan">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </h5>
-        </div>
-        <div class="main__body">
-            <div class="section section-one">
-                <img class="image-one" src="./Image/Vector1.png" alt="" />
-                <h4 class="subtitle">
-                    Thoughtful Design
-                </h4>
-                <p class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-                </p>
-            </div>
-            <div class="section section-two">
-                <img class="image-two" src="./Image/Vector2.png" alt="" />
-                <h4 class="subtitle">
-                    Thoughtful Design
-                </h4>
-                <p class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-                </p>
-            </div>
-            <div class="section section-three">
-                <img class="image-three" src="./Image/Vector3.png" alt="" />
-                <h4 class="subtitle">
-                    Thoughtful Design
-                </h4>
-                <p class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-                </p>
+                <div class="section section-three">
+                    <img class="image-three" src="./Image/Vector3.png" alt="" />
+                    <h4 class="subtitle">
+                        Thoughtful Design
+                    </h4>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -305,45 +323,67 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </h5>
             </div>
-            <div class="ourcustomers__box-body body">
-                <div class="body__item">
-                    <div class="desc">
-                        <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique
-                            odio aspernatur ex, architecto eaque
-                            quo suscipit.
+            <div class="ourcustomers__slides">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <div class="ourcustomers__box-body body">
+                    <div class="body__item slide-1">
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet,<br />
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.
+                            </p>
+                        </div>
+                        <p class="name">
+                            <img class="davis" src="./Image/Ellipse 7.png" alt="">Davis Rhiel Madsen
                         </p>
+                        <div class="function">
+                            <p>Manager</p>
+                        </div>
                     </div>
-                    <p class="name davis">Davis Rhiel Madsen</p>
-                    <p class="function">Manager</p>
+                    <div class="body__item slide-2">
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet,<br />
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.
+                            </p>
+                        </div>
+                        <p class="name">
+                            <img class="jaydon" src="./Image/Ellipse 7 (1).png" alt="">Jaydon Rosser
+                        </p>
+                        <div class="function">
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                    <div class="body__item slide-3">
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet,<br />
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.
+                            </p>
+                        </div>
+                        <p class="name">
+                            <img class="cooper" src="./Image/Ellipse 7 (2).png" alt="">Cooper Dorwart
+                        </p>
+                        <div class="function">
+                            <p>Manager</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="body__item">
-                    <div class="desc">
-                        <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique
-                            odio aspernatur ex, architecto eaque
-                            quo suscipit.
-                        </p>
-                    </div>
-                    <p class="name jaydon">Jaydon Rosser</p>
-                    <p class="function">Manager</p>
-                </div>
-                <div class="body__item">
-                    <div class="desc">
-                        <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique
-                            odio aspernatur ex, architecto eaque
-                            quo suscipit.
-                        </p>
-                    </div>
-                    <p class="name cooper">Cooper Dorwart</p>
-                    <p class="function">Manager</p>
+                <div class="slides__controls">
+                    <label class="dot dot1" for="slide1"></label>
+                    <label class="dot dot2" for="slide2"></label>
+                    <label class="dot dot3" for="slide3"></label>
                 </div>
             </div>
         </div>
@@ -382,7 +422,7 @@
                     <input type="password" name="name" value="" placeholder="Password">
                 </div>
                 <div class="contactUs__form-two form">
-                    <textarea cols="67" name="name" placeholder="Message"></textarea>
+                    <textarea name="name" placeholder="Message"></textarea>
                 </div>
             </form>
             <form class="contactUs__box-btn" action="">
@@ -401,7 +441,10 @@
                 <img src="./Image/github_icon.png" alt="">
                 <img src="./Image/rss_icon.png" alt="">
             </div>
-            <h4>© 2015 Axure Themes</h4>
+            <div class="footer__text">
+                <h4>© 2015 Axure Themes</h4>
+            </div>
+
         </div>
 
     </div>
